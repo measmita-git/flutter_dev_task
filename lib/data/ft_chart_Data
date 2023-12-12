@@ -1,0 +1,231 @@
+class ChartData {
+  final dynamic value;
+  final DateTime timestamp;
+  final dynamic volume;
+
+  ChartData(this.value, this.timestamp, this.volume);
+}
+
+final List<Map<String, dynamic>> chartData = [
+  {
+    "value": 1866.34,
+    "timestamp": "2023-06-01 00:00:00",
+    "volume": 1654306798.24
+  },
+  {
+    "value": 1870.65,
+    "timestamp": "2023-04-30 00:00:00",
+    "volume": 953773623.34
+  },
+  {"value": 1908.55, "timestamp": "2023-03-30 00:00:00", "volume": 898957998.8},
+  {
+    "value": 1995.49,
+    "timestamp": "2023-03-01 00:00:00",
+    "volume": 1287916111.83
+  },
+  {
+    "value": 2116.65,
+    "timestamp": "2023-02-01 00:00:00",
+    "volume": 1766169593.3
+  },
+  {
+    "value": 2046.26,
+    "timestamp": "2023-01-01 00:00:00",
+    "volume": 4048052200.39
+  },
+  {
+    "value": 1961.06,
+    "timestamp": "2022-12-01 00:00:00",
+    "volume": 1322496065.85
+  },
+  {
+    "value": 1930.99,
+    "timestamp": "2022-11-01 00:00:00",
+    "volume": 1290337849.8
+  },
+  {
+    "value": 1853.76,
+    "timestamp": "2022-09-29 00:00:00",
+    "volume": 632153766.67
+  },
+  {
+    "value": 1972.29,
+    "timestamp": "2022-09-01 00:00:00",
+    "volume": 1383201158.26
+  },
+  {
+    "value": 2196.25,
+    "timestamp": "2022-08-01 00:00:00",
+    "volume": 4669700685.1
+  },
+  {
+    "value": 2028.77,
+    "timestamp": "2022-07-01 00:00:00",
+    "volume": 1459004968.14
+  },
+  {
+    "value": 2130.71,
+    "timestamp": "2022-06-01 00:00:00",
+    "volume": 1078218850.15
+  },
+  {"value": 2356.2, "timestamp": "2022-04-28 00:00:00", "volume": 1495655962.4},
+  {"value": 2544.3, "timestamp": "2022-03-31 00:00:00", "volume": 1889418347},
+  {
+    "value": 2610.6,
+    "timestamp": "2022-02-28 00:00:00",
+    "volume": 3659461441.36
+  },
+  {
+    "value": 2891.3,
+    "timestamp": "2022-02-01 00:00:00",
+    "volume": 6573722216.81
+  },
+  {
+    "value": 2524.5,
+    "timestamp": "2021-12-29 00:00:00",
+    "volume": 3622061200.76
+  },
+  {
+    "value": 2633.66,
+    "timestamp": "2021-12-01 00:00:00",
+    "volume": 2741312733.04
+  },
+  {
+    "value": 2819.87,
+    "timestamp": "2021-11-01 00:00:00",
+    "volume": 7776714772.94
+  },
+  {
+    "value": 2633.42,
+    "timestamp": "2021-09-30 00:00:00",
+    "volume": 3699339017.79
+  },
+  {
+    "value": 2977.02,
+    "timestamp": "2021-09-01 00:00:00",
+    "volume": 9349788950.45
+  },
+  {
+    "value": 3081.0574,
+    "timestamp": "2021-08-01 00:00:00",
+    "volume": 12102206144.81
+  },
+  {
+    "value": 2843.0006,
+    "timestamp": "2021-07-01 00:00:00",
+    "volume": 6707018556.14
+  },
+  {"value": 2771.15, "timestamp": "2021-06-01 00:00:00", "volume": 8483640000},
+  {"value": 2611.1, "timestamp": "2021-04-29 00:00:00", "volume": 4238400000},
+  {"value": 2631.89, "timestamp": "2021-04-01 00:00:00", "volume": 7066400000},
+  {"value": 2515.03, "timestamp": "2021-03-01 00:00:00", "volume": 5592640000},
+  {"value": 2408.24, "timestamp": "2021-02-01 00:00:00", "volume": 6890700000},
+  {"value": 2087.27, "timestamp": "2020-12-31 00:00:00", "volume": 5644250000},
+  {"value": 2000.4, "timestamp": "2020-12-01 00:00:00", "volume": 7404154007},
+  {"value": 1640.95, "timestamp": "2020-11-01 00:00:00", "volume": 2858220000},
+  {"value": 1571.04, "timestamp": "2020-10-01 00:00:00", "volume": 2786480000},
+  {"value": 1484.99, "timestamp": "2020-08-31 00:00:00", "volume": 3372600000},
+  {"value": 1439.06, "timestamp": "2020-07-30 00:00:00", "volume": 1304170000},
+  {"value": 1336.52, "timestamp": "2020-07-01 00:00:00", "volume": 346069000},
+  {"value": 1201.57, "timestamp": "2020-05-13 00:00:00", "volume": 3552020},
+  {"value": 1251.45, "timestamp": "2020-03-22 00:00:00", "volume": 184541000},
+  {"value": 1591.36, "timestamp": "2020-03-01 00:00:00", "volume": 4788470000},
+  {"value": 1325.38, "timestamp": "2020-01-30 00:00:00", "volume": 1954020000},
+  {"value": 1169.5, "timestamp": "2020-01-01 00:00:00", "volume": 369884000},
+  {"value": 1112.85, "timestamp": "2019-12-01 00:00:00", "volume": 201233000},
+  {"value": 1146.17, "timestamp": "2019-10-31 00:00:00", "volume": 186230000},
+  {"value": 1145.69, "timestamp": "2019-10-01 00:00:00", "volume": 206242000},
+  {"value": 1184.78, "timestamp": "2019-09-01 00:00:00", "volume": 273986000},
+  {"value": 1263.84, "timestamp": "2019-08-01 00:00:00", "volume": 491456000},
+  {"value": 1242.03, "timestamp": "2019-07-01 00:00:00", "volume": 341769000},
+  {"value": 1319.47, "timestamp": "2019-05-30 00:00:00", "volume": 1504460000},
+  {"value": 1298.6, "timestamp": "2019-04-30 00:00:00", "volume": 913018000},
+  {"value": 1149.99, "timestamp": "2019-04-01 00:00:00", "volume": 326449000},
+  {"value": 1105.53, "timestamp": "2019-02-27 00:00:00", "volume": 204517000},
+  {"value": 1161.63, "timestamp": "2019-01-31 00:00:00", "volume": 268245000},
+  {"value": 1185.91, "timestamp": "2019-01-01 00:00:00", "volume": 227166000},
+  {"value": 1148.36, "timestamp": "2018-11-29 00:00:00", "volume": 314926000},
+  {"value": 1220.98, "timestamp": "2018-11-01 00:00:00", "volume": 241964000},
+  {"value": 1238.67, "timestamp": "2018-10-01 00:00:00", "volume": 524752000},
+  {"value": 1181.69, "timestamp": "2018-08-30 00:00:00", "volume": 185088000},
+  {"value": 1193.87, "timestamp": "2018-08-01 00:00:00", "volume": 166588000},
+  {"value": 1184.53, "timestamp": "2018-07-01 00:00:00", "volume": 187737000},
+  {"value": 1307.66, "timestamp": "2018-05-31 00:00:00", "volume": 327692000},
+  {"value": 1349.01, "timestamp": "2018-04-29 00:00:00", "volume": 378035000},
+  {"value": 1196.24, "timestamp": "2018-04-01 00:00:00", "volume": 293590000},
+  {"value": 1345.99, "timestamp": "2018-02-28 00:00:00", "volume": 491741000},
+  {"value": 1411.52, "timestamp": "2018-02-01 00:00:00", "volume": 396398000},
+  {"value": 1434.8, "timestamp": "2018-01-01 00:00:00", "volume": 462478000},
+  {"value": 1537.67, "timestamp": "2017-11-30 00:00:00", "volume": 714826000},
+  {"value": 1526.51, "timestamp": "2017-11-01 00:00:00", "volume": 368938000},
+  {"value": 1549.46, "timestamp": "2017-09-26 00:00:00", "volume": 303448000},
+  {"value": 1580.03, "timestamp": "2017-08-31 00:00:00", "volume": 789477000},
+  {"value": 1660.25, "timestamp": "2017-08-01 00:00:00", "volume": 1013820000},
+  {"value": 1563.81, "timestamp": "2017-06-28 00:00:00", "volume": 450165000},
+  {"value": 1604.31, "timestamp": "2017-06-01 00:00:00", "volume": 562676000},
+  {"value": 1650.78, "timestamp": "2017-04-30 00:00:00", "volume": 747966000},
+  {"value": 1587.64, "timestamp": "2017-03-30 00:00:00", "volume": 1447270000},
+  {"value": 1316.8, "timestamp": "2017-03-01 00:00:00", "volume": 314716000},
+  {"value": 1390, "timestamp": "2017-02-01 00:00:00", "volume": 558137000},
+  {"value": 1465.72, "timestamp": "2017-01-01 00:00:00", "volume": 561280000},
+  {"value": 1600.49, "timestamp": "2016-12-01 00:00:00", "volume": 1186850000},
+  {"value": 1759.71, "timestamp": "2016-10-27 00:00:00", "volume": 670099000},
+  {"value": 1753.38, "timestamp": "2016-09-29 00:00:00", "volume": 768591000},
+  {"value": 1805.18, "timestamp": "2016-09-01 00:00:00", "volume": 1293500000},
+  {"value": 1845.41, "timestamp": "2016-08-01 00:00:00", "volume": 1496390000},
+  {"value": 1723.23, "timestamp": "2016-06-30 00:00:00", "volume": 1599010000},
+  {"value": 1523.56, "timestamp": "2016-06-01 00:00:00", "volume": 1196010000},
+  {"value": 1464.91, "timestamp": "2016-04-28 00:00:00", "volume": 931953000},
+  {"value": 1355.48, "timestamp": "2016-03-31 00:00:00", "volume": null},
+  {"value": 1289.52, "timestamp": "2016-03-01 00:00:00", "volume": null},
+  {"value": 1238.02, "timestamp": "2016-02-01 00:00:00", "volume": null},
+  {"value": 1151.38, "timestamp": "2015-12-31 00:00:00", "volume": null},
+  {"value": 1066.38, "timestamp": "2015-12-01 00:00:00", "volume": null},
+  {"value": 1088.3, "timestamp": "2015-11-01 00:00:00", "volume": null},
+  {"value": 1178.74, "timestamp": "2015-10-01 00:00:00", "volume": null},
+  {"value": 1191.34, "timestamp": "2015-09-01 00:00:00", "volume": null},
+  {"value": 1027.98, "timestamp": "2015-07-30 00:00:00", "volume": null},
+  {"value": 945.78, "timestamp": "2015-07-01 00:00:00", "volume": null},
+  {"value": 890.43, "timestamp": "2015-06-01 00:00:00", "volume": null},
+  {"value": 938.19, "timestamp": "2015-04-23 00:00:00", "volume": null},
+  {"value": 939.54, "timestamp": "2015-04-01 00:00:00", "volume": null},
+  {"value": 975.67, "timestamp": "2015-03-01 00:00:00", "volume": null},
+  {"value": 991.44, "timestamp": "2015-02-01 00:00:00", "volume": null},
+  {"value": 903.68, "timestamp": "2015-01-01 00:00:00", "volume": null},
+  {"value": 851.43, "timestamp": "2014-12-01 00:00:00", "volume": null},
+  {"value": 930.21, "timestamp": "2014-10-30 00:00:00", "volume": null},
+  {"value": 937.99, "timestamp": "2014-09-30 00:00:00", "volume": null},
+  {"value": 946.6, "timestamp": "2014-09-01 00:00:00", "volume": null},
+  {"value": 1066.09, "timestamp": "2014-07-31 00:00:00", "volume": null},
+  {"value": 956.6, "timestamp": "2014-07-01 00:00:00", "volume": null},
+  {"value": 869.18, "timestamp": "2014-06-01 00:00:00", "volume": null},
+  {"value": 823.24, "timestamp": "2014-04-30 00:00:00", "volume": null},
+  {"value": 800.99, "timestamp": "2014-04-01 00:00:00", "volume": null},
+  {"value": 825.7, "timestamp": "2014-02-26 00:00:00", "volume": null},
+  {"value": 781.46, "timestamp": "2014-01-29 00:00:00", "volume": null},
+  {"value": 754.37, "timestamp": "2014-01-01 00:00:00", "volume": null},
+  {"value": 651.98, "timestamp": "2013-12-01 00:00:00", "volume": null},
+  {"value": 579.41, "timestamp": "2013-10-31 00:00:00", "volume": null},
+  {"value": 541.88, "timestamp": "2013-10-01 00:00:00", "volume": null},
+  {"value": 551.55, "timestamp": "2013-09-01 00:00:00", "volume": null},
+  {"value": 546.83, "timestamp": "2013-08-01 00:00:00", "volume": null},
+  {"value": 494.35, "timestamp": "2013-07-01 00:00:00", "volume": null},
+  {"value": 500.22, "timestamp": "2013-05-30 00:00:00", "volume": null},
+  {"value": 500.72, "timestamp": "2013-04-30 00:00:00", "volume": null},
+  {"value": 513.6, "timestamp": "2013-04-01 00:00:00", "volume": null},
+  {"value": 542.34, "timestamp": "2013-02-28 00:00:00", "volume": null},
+  {"value": 510.68, "timestamp": "2013-01-31 00:00:00", "volume": null},
+  {"value": 530.61, "timestamp": "2013-01-01 00:00:00", "volume": null},
+  {"value": 489, "timestamp": "2012-11-29 00:00:00", "volume": null},
+  {"value": 447.99, "timestamp": "2012-11-01 00:00:00", "volume": null},
+  {"value": 416.87, "timestamp": "2012-10-01 00:00:00", "volume": null},
+  {"value": 405.82, "timestamp": "2012-08-30 00:00:00", "volume": null},
+  {"value": 402.21, "timestamp": "2012-08-01 00:00:00", "volume": null},
+  {"value": 374.51, "timestamp": "2012-07-01 00:00:00", "volume": null}
+];
+final List<ChartData> chartDataList = chartData.map((data) {
+  final dynamic value = data['value'];
+  final DateTime timestamp = DateTime.parse(data['timestamp']);
+  final dynamic volume = data['volume'];
+  return ChartData(value, timestamp, volume);
+}).toList();

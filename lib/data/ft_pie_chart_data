@@ -1,0 +1,20 @@
+import 'package:fl_chart/fl_chart.dart';
+import 'package:flutter/material.dart'; // Add this line
+import 'package:flutter_dev_task/data/pie_data';
+
+List<PieChartSectionData> getSections() {
+  return PieData.data.map((data) {
+    return PieChartSectionData(
+      color: data.color,
+      value: data.percent,
+      title: '${data.percent}%',
+      radius: 50,
+      titleStyle: TextStyle(
+        color: Colors.black,
+        fontSize: 14,
+        fontWeight: FontWeight.normal,
+      ),
+    );
+  }).toList();
+}
+

@@ -1,0 +1,14 @@
+class DataModel {
+  final String ticker;
+  final String name;
+  final dynamic ltp;
+  final dynamic change;
+  final dynamic percentage;
+
+  DataModel(
+      {required this.ticker,
+      required this.name,
+      required this.ltp,
+      required this.change,
+      required this.percentage});
+}
